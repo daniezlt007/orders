@@ -122,13 +122,14 @@ Para executar os testes do projeto:
 
 - bash
 
-Copiar código
 mvn test
+
 🐳 Docker Compose
 O projeto utiliza um arquivo docker-compose.yml para orquestrar os serviços. Aqui estão os principais contêineres:
 
 orders-app: Serviço principal (Spring Boot).
 rabbitmq: Fila de mensagens.
 postgres-db: Banco de dados relacional.
+
 📈 Escalabilidade
 O sistema foi projetado para processar até 200 mil pedidos por dia, utilizando o RabbitMQ para garantir a escalabilidade e desacoplamento entre serviços.
