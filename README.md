@@ -83,6 +83,7 @@ Copiar código
 Resposta:
 json
 Copiar código
+```json
 {
     "id": "d1446247-b08a-48a4-847c-9022d1306995",
     "totalValue": 0.0,
@@ -96,6 +97,7 @@ Copiar código
         }
     ]
 }
+```
 
 Consultar Pedido
 
@@ -103,6 +105,8 @@ GET /orders/{id}
 Resposta:
 json
 Copiar código
+
+```json
 {
     "id": "d1446247-b08a-48a4-847c-9022d1306995",
     "totalValue": 0.0,
@@ -116,6 +120,7 @@ Copiar código
         }
     ]
 }
+```
 
 🧪 Testes
 Para executar os testes do projeto:
